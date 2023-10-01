@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>MASSAS DE AR</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./styles.css" rel="stylesheet" />
+    <style>
+        img {
+            border: solid;
+        }
+        .noborder{
+            border: none;
+        }
+        .imgarrow {
+            border: none
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container-slider {
+            display: flex;
+            width: 100%;
+            min-height: 40vh;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .container-images {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 700px;
+        }
+
+        .slider {
+            opacity: 0;
+            transition: opacity .2s;
+            position: absolute;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .on {
+            opacity: 1;
+        }
+
+        #prev-button,
+        #next-button {
+            width: 30px;
+            height: 30px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        #prev-button img,
+        #next-button img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #prev-button {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#!">Página Massas de Ar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container px-4 px-lg-5">
+        <!-- Heading Row-->
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" width="600px" src="./img/massa_de_ar.png"
+                    alt="..." /></div>
+            <div class="col-lg-5">
+                <h1 class="font-weight-light">Massas de Ar</h1>
+                <p class="recuo">Você já parou para pensar como gigantescas "entidades" invisíveis podem moldar o clima
+                    ao
+                    redor do mundo? As massas de ar são como entidades misteriosas que vagam pelos céus,
+                    trazendo consigo temperaturas extremas, umidade intensa e até mesmo a queda brusca de
+                    termômetros. Elas são as protagonistas por trás das mudanças climáticas que experimentamos
+                    diariamente. Conhecer os segredos e as peculiaridades dessas massas de ar pode nos levar a
+                    uma jornada fascinante pelo mundo da meteorologia, revelando os mistérios que nos cercam e
+                    despertando a curiosidade para explorar ainda mais sobre esse fenômeno tão poderoso e
+                    intrigante </p>
+                <a class="btn btn-primary" href="https://www.youtube.com/watch?v=a_0hedXHRB4">saiba mais</a>
+            </div>
+        </div>
+        <!-- Call to Action-->
+        <div class="card text-white bg-secondary my-5 py-4 text-center">
+            <div class="card-body">
+                <p class="text-white m-0">"As massas de ar são como as tintas invisíveis da atmosfera, misturando-se e pintando o cenário do nosso clima com cores de temperatura e umidade."</p>
+            </div>
+        </div>
+
+
+
+        <h3>O que são massas de ar?</h3>
+        <p class="recuo"> As massas de ar são grandes porções de ar que compartilham características semelhantes, como
+            temperatura, pressão e umidade, ao se formarem em determinadas regiões da atmosfera, mais especificamente,
+            na camada mais baixa: a troposfera. Elas desempenham
+            um papel importante na determinação do clima e das condições meteorológicas de uma
+            determinada área. Essas estruturas são formadas quando uma grande quantidade de ar permanece
+            sobre uma área extensa por um período significativo. Durante esse tempo, a massa de ar é
+            influenciada pelas características da superfície terrestre abaixo dela. Dependendo da origem
+            e do trajeto percorrido, as massas de ar podem adquirir diferentes características,
+            principalmente em relação à temperatura e umidade. Para entender melhor as massas de ar,
+            vamos explorar os tipos existentes, as massas de ar do Brasil e como elas influenciam o
+            clima.
+        </p>
+        <!-- Content Row-->
+
+
+
+    </div>
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body"></div>
+    </div>
+    <!-- Page Content-->
+    <div class="container px-4 px-lg-5">
+        <!-- Heading Row-->
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" width="600px" src="./img/tipos_massa.jpg"
+                    alt="..." /></div>
+            <div class="col-lg-5">
+                <h1 class="font-weight-light">Tipos de massas de ar</h1>
+                <p class="recuo">Massas de ar podem ser classificadas quanto ao seu local de origem e posição com
+                    relação a latitude de que são provenientes. Existem quatro tipos básicos de massas de ar quanto a
+                    latitude: massa de ar Equatorial, massa de ar
+                    Tropical, massa de ar Polar e massa de ar Ártica, também chamada de Antártica. A massa de ar
+                    Equatorial
+                    é quente e úmida, sendo originada nas regiões mais próximas à Linha do Equador. A massa
+                    de ar Tropical pode ser quente e úmida ou quente e seca, dependendo de sua origem e
+                    trajeto. A massa de ar Polar é fria e seca, originada nas regiões polares. Já a
+                    massa de ar Ártica é extremamente fria e seca, originada nas regiões do
+                    Ártico ou Antártica. Além desta classificação quanto a latitude, a superficie onde são geradas
+                    também pode influenciar nas suas características, massas de ar oceânicas tendem a ser mais umidas
+                    que as continentais, isso se da pela evaporação das águas que ocorre de maneira muito mais abundante
+                    nas superfícies oceânicas que nas continentais.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body"></div>
+    </div>
+
+
+
+    <div class="container px-4 px-lg-5">
+        <!-- Heading Row-->
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7"><img class = "noborder"class="img-fluid rounded mb-4 mb-lg-0" width="600px" src="./img/importancia.jpg"
+                    alt="..." /></div>
+            <div class="col-lg-5">
+                <h1 class="font-weight-light">Importância das massas de ar</h1>
+                <p class="recuo">As massas de ar exercem uma grande influência no clima, pois ao se deslocarem, levam
+                    consigo
+                    algumas das características de temperatura e umidade que adquiriram em sua região de origem. Quando
+                    uma massa de ar encontra outra de características diferentes, ocorrem as chamadas "frentes",
+                    que são áreas de transição entre essas massas de ar. Nas frentes, podem ocorrer mudanças
+                    bruscas de temperatura, alterações na umidade e a formação de chuvas.
+                    Além disso, as massas de ar também afetam a dinâmica dos ventos, a formação de nuvens e a
+                    ocorrência de eventos meteorológicos como tempestades e tornados.</p>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body"></div>
+    </div>
+
+
+
+
+    
+    <div class="espacado">
+        <h1>Massas de ar no Brasil</h1>
+    <p>No Brasil, as massas de ar desempenham um papel fundamental na determinação das condições
+        climáticas. Existem cinco massas de ar de grande atuação no território brasileiro:
+
+    </p>
+    </div>
+    <center>
+        <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" width="600px" src="./img/massas_no_brasil.png"
+                alt="..." /></div>
+    </center>
+    <br>
+    
+    <div class="espacado">
+    <ol>
+        <li>
+            <strong>Massa Polar Atlântica (mPa):</strong> Responsável pela queda das temperaturas em
+            grande parte do território, especialmente durante o inverno, quando frentes frias trazem
+            chuvas e redução térmica. Afeta principalmente os estados do Centro-Sul. No Norte do
+            Brasil, a mPa causa o fenômeno conhecido como friagem, caracterizado por uma acentuada
+            diminuição das temperaturas.
+        </li>
+        <li>
+            <strong>Massa Tropical Atlântica (mTa):</strong> Forma-se no oceano Atlântico, sendo
+            úmida e responsável pela introdução de umidade no país, principalmente nas regiões
+            Centro-Sul e parte do Nordeste brasileiro. Tem potencial para gerar chuvas devido às
+            temperaturas elevadas. Predominante nas estações de transição e no verão.
+        </li>
+        <li>
+            <strong>Massa Tropical Continental (mTc):</strong> Origem no Centro-Sul do Brasil e
+            atuação nas regiões próximas ao Trópico de Capricórnio, como os estados do Sul, Sudeste
+            e Centro-Oeste. Caracteriza-se por temperaturas elevadas e pela ocorrência de secas
+            consistentes ao longo do ano. Sua atuação é mais significativa nas estações de transição
+            e no verão.
+        </li>
+        <li>
+            <strong>Massa Equatorial Atlântica (mEa):</strong> Origina-se no oceano Atlântico,
+            próximo à Linha do Equador. É marcada por alta umidade, desempenhando um papel
+            importante na geração de chuvas, especialmente na região Norte do Brasil. Também
+            influencia o litoral nordestino durante o verão, trazendo fortes precipitações. Registra
+            elevadas temperaturas ao longo de todo o ano.
+        </li>
+        <li>
+            <strong>Massa Equatorial Continental (mEc):</strong> Peculiar, pois, apesar de se formar
+            sobre o continente, apresenta altos níveis de umidade. Sua formação ocorre na região da
+            Floresta Amazônica, próxima à Linha do Equador fazendo com que ela tenha um elevado teor de umidade, o que
+            contribui para a ocorrência de chuvas intensas. Atua predominantemente na região Norte do
+            Brasil.
+        </li>
+    </ol>
+</div>
+<div class="card text-white bg-secondary my-5 py-4 text-center">
+    <div class="card-body">
+        <h1>Resumo: Massas de ar</h1>
+    </div>
+</div>
+</div>
+<div class="container-slider">
+    <button id="prev-button"><img class="imgarrow" src="./img/arrow.png" alt="prev-button"></button>
+    <div class="container-images">
+        <img src="./img/ma1.gif" alt="Introdução" class="slider on">
+        <img src="./img/ma2.jpg" alt="Conceituando massas de ar" class="slider">
+        <img src="./img/ma3.gif" alt="Quanto a superficie de origem" class="slider">
+        <img src="./img/ma4.gif" alt="Quanto a latitude" class="slider">
+        <img src="./img/ma5.gif" alt="Nomeclatura das massas de ar" class="slider">
+        <img src="./img/ma6.gif" alt="Massas de ar no Brasil" class="slider">
+    </div>
+    <button id="next-button"><img class="imgarrow" src="./img/arrow.png" alt="next-button"></button>
+</div>
+
+<hr>
+
+
+
+
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4 px-lg-5">
+            <p class="m-0 text-center text-white">Instituto Federal do Rio Grande do Norte</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="./scripts.js"></script>
+    <script>const slider = document.querySelectorAll('.slider');
+        const btnPrev = document.getElementById('prev-button');
+        const btnNext = document.getElementById('next-button');
+
+        let currentSlide = 0;
+
+        function hideSlider() {
+            slider.forEach(item => item.classList.remove('on'))
+        }
+
+        function showSlider() {
+            slider[currentSlide].classList.add('on')
+        }
+
+        function nextSlider() {
+            hideSlider()
+            if (currentSlide === slider.length - 1) {
+                currentSlide = 0
+            } else {
+                currentSlide++
+            }
+            showSlider()
+        }
+
+        function prevSlider() {
+            hideSlider()
+            if (currentSlide === 0) {
+                currentSlide = slider.length - 1
+            } else {
+                currentSlide--
+            }
+            showSlider()
+        }
+
+        btnNext.addEventListener('click', nextSlider);
+        btnPrev.addEventListener('click', prevSlider);
+    </script>
+</body>
+
+</html>

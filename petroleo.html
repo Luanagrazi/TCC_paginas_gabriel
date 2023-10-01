@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>PETRÓLEO</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./styles.css" rel="stylesheet" />
+    <style>
+        .centered-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .espacado {
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 20px;
+        }
+
+        .imgc {
+            width: 345px;
+            height: 184.23px;
+        }
+
+        img {
+            width: 540px;
+            border: solid;
+        }
+
+        .imgarrow {
+            border: none
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container-slider {
+            display: flex;
+            width: 100%;
+            min-height: 40vh;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .container-images {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 700px;
+        }
+
+        .slider {
+            opacity: 0;
+            transition: opacity .2s;
+            position: absolute;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .on {
+            opacity: 1;
+        }
+
+        #prev-button,
+        #next-button {
+            width: 30px;
+            height: 30px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        #prev-button img,
+        #next-button img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #prev-button {
+            transform: rotate(180deg);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#!">Página Petróleo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container px-4 px-lg-5">
+        <!-- Heading Row-->
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./img/petroleo.jpg" alt="..." />
+            </div>
+            <div class="col-lg-5">
+                <h1 class="font-weight-light">Petróleo</h1>
+                <p class="recuo">O petróleo, uma substância que permeia a nossa sociedade de forma ampla e profunda,
+                    possui
+                    uma história fascinante que merece ser explorada. A trajetória do petróleo, desde a sua
+                    descoberta até os dias de hoje, é repleta de impactos econômicos, políticos e ambientais que
+                    moldaram o mundo em que vivemos. Portanto, é essencial despertar a atenção das pessoas para
+                    estudar mais sobre essa matéria-prima preciosa. </p>
+                <a class="btn btn-primary" href="https://www.youtube.com/watch?v=vnxDXl-Wvq4">saiba mais</a>
+            </div>
+        </div>
+        <!-- Call to Action-->
+        <div class="card text-white bg-secondary my-5 py-4 text-center">
+            <div class="card-body">
+                <p class="text-white m-0">"Verdade e coragem deveriam guiar o curso do homem, mas agora petróleo e dinheiro o guiam"</p>
+            </div>
+        </div>
+
+
+
+        <h3>O que é o petróleo?</h3>
+        <p class="recuo">
+            O petróleo é uma substância natural formada a partir de restos de plantas e animais antigos
+            que se acumularam no fundo dos oceanos há milhões de anos (acredita-se que, principalmente, pela
+            decomposição das algas). Ele é uma fonte de energia fóssil
+            que desempenha um papel fundamental em nossa sociedade atual. Neste material, vamos explorar sua utilização
+            como fonte de energia, os derivados do petróleo, sua obtenção,
+            crises históricas, impactos ambientais e a história do petróleo no Brasil.
+            O petróleo é um líquido espesso e escuro encontrado em reservatórios subterrâneos,
+            geralmente em formações rochosas sedimentares. Essa substância é geralmente refinada para produzir
+            diferentes tipos de
+            combustíveis, como gasolina, diesel e querosene, que são utilizados em automóveis, aviões,
+            navios e geradores de energia.
+
+        </p>
+        <br>
+        <h3>Curiosidades</h3>
+        <hr>
+        
+        <!-- Content Row-->
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Quem produz mais petróleo?</h2>
+                        <img src="img/p1.jpg" class="imgc">
+                        <p class="card-text">Os Estados Unidos da América são reconhecidos como o maior produtor de
+                            petróleo do planeta, com mais de 16 milhões de barris extraídos por dia.
+
+                            Além disso, o país detém 4% das reservas totais do mundo, contando com cerca de 68,8 bilhões
+                            de barris para serem explorados. Assim, o país é um importante player mundial quando o
+                            assunto é indústria petrolífera.</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm"
+                            href="https://www.wilsonsons.com.br/pt-br/blog/maiores-produtores-de-petroleo-do-mundo/">Saiba Mais
+                            </a></div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Primeiro poço de petróleo</h2>
+                        <img src="img/p2.jpg" class="imgc">
+                        <p class="card-text">Em agosto de 1859 o americano Edwin Laurentine Drake, perfurou o primeiro
+                            poço para a procura do petróleo, na Pensilvânia. O poço revelou-se produtor e a data passou
+                            a ser considerada a do nascimento da moderna indústria petrolífera. Apesar disso, existe a
+                            teoria de que um poço já havia sido construído pelos chineses no ano 347 antes de Cristo.
+                        </p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm"
+                            href="http://cepa.if.usp.br/energia/energia1999/Grupo1A/historia.html#:~:text=Em%20agosto%20de%201859%20o,nascimento%20da%20moderna%20ind%C3%BAstria%20petrol%C3%ADfera.">Saiba Mais
+                            </a></div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Qual a maior safra de petróleo brasileira?</h2>
+                        <img src="img/p3.jpg" class="imgc">
+                        <p class="card-text">No ano de 2022, as produções anuais médias de petróleo e de gás natural
+                            foram recordes. A de petróleo foi de 3,021 milhões de barris/dia (bbl/d), valor 2,47% acima
+                            do recorde que foi observado no ano de 2020, quando atingiu 2,948 milhões de bbl/d.</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm"
+                            href="https://www.gov.br/anp/pt-br/canais_atendimento/imprensa/noticias-comunicados/producoes-de-petroleo-e-de-gas-natural-bateram-recordes-em-2022#:~:text=No%20ano%20de%202022%2C%20as,2%2C948%20milh%C3%B5es%20de%20bbl%2Fd.">Saiba Mais</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body"></div>
+    </div>
+
+    <!-- Page Content-->
+    <div class="container px-4 px-lg-5">
+        <!-- Heading Row-->
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./img/utilidades.jpg" alt="..." />
+            </div>
+            <br>
+            <div class="col-lg-5">
+                <h1 class="font-weight-light">Utilidades do petróleo</h1>
+                <p class="recuo">Além dos combustíveis, o petróleo também é utilizado como matéria-prima para a produção
+                    de
+                    uma ampla gama de produtos. Dentre os principais derivados do petróleo estão o plástico, os
+                    lubrificantes, as ceras, os asfaltos, os fertilizantes e até mesmo alguns produtos químicos
+                    usados na indústria farmacêutica.</p>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body">
+            <h1>Extração e Refinamento</h1>
+        </div>
+    </div>
+    <div class="centered-image">
+        <img src="./img/extracao.jpg" alt="..." />
+    </div>
+    <br>
+    <p class="espacado"> A obtenção do petróleo ocorre através da perfuração de poços de petróleo em locais
+        identificados como reservatórios, geralmente, em grandes bacias sedimentares (região rochosa formada por várias
+        camadas de sedimentos superpostas que podem ser restos de animais e vegetais). O processo envolve a utilização
+        de sondas e plataformas de perfuração para alcançar as camadas onde o petróleo está localizado. Quando o
+        petróleo é extraído, ele é transferido até refinarias, onde é processado para produzir os diferentes derivados.
+        O refinamento do petróleo consiste em um processo complexo que visa transformar o petróleo bruto, uma substância
+        cru e impura, em produtos úteis que são utilizados comercialmente. </p>
+        
+        <p class="espacado">Nas refinarias, o petróleo passa por diversas
+        etapas de separação, transformação e tratamento. Em um primeiro momento, o petróleo bruto passa pela destilação,
+        na qual é aquecido em uma torre de destilação, permitindo a separação dos componentes em diferentes faixas de
+        temperatura. A partir dessa destilação, são obtidos produtos como gás liquefeito de petróleo (GLP), gasolina,
+        querosene, óleo diesel e óleo combustível. Em seguida, ocorrem processos de conversão ou transformação, como
+        craqueamento catalítico por exemplo, onde moléculas mais pesadas do petróleo são quebradas e reestruturadas para
+        produzir produtos de maior valor, como gasolina de alta octanagem (maior capacidade de resistência à altas
+        temperaturas sem que ocorra detonação). Além disso, o petróleo também passa por tratamentos para remoção de
+        impurezas e implementação de aditivos, garantindo a qualidade dos produtos finais.</p> 
+        
+        <p class="espacado">Podemos resumir o processo de
+        extração em si em três etapas: Prospecção (localização de depósitos em bacias sedimentares usando análises do
+        subsolo); perfuração(após a marcação do depósito, ocorre a perfuração do local e análise de sua viabilidade
+        econômica de extração); extração(com os equipamentos necessários e utilizando os processos citados
+        anteriormente, o petróleo é extraído e refinado, seja em terra ou em plataformas oceânicas).</p>
+
+
+
+
+
+
+
+
+
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body">
+            <h1>Creises do petróleo</h1>
+        </div>
+    </div>
+    <div class="centered-image">
+        <img class="centered-image" src="./img/crises2.png" alt="..." />
+    </div>
+    <br>
+    <p class="espacado">Durante a história moderna, o petróleo desempenhou um papel crucial como fonte de energia e
+        também foi
+        responsável por diversas crises e conflitos globais. Desde as primeiras descobertas e explorações no
+        início do século XX, o petróleo se tornou uma indústria em expansão, com reservas encontradas nos
+        Estados Unidos, Rússia, Oriente Médio e em outras regiões.
+
+        A importância estratégica do petróleo ficou evidente durante a Primeira Guerra Mundial,
+        quando a demanda
+        por essa energia cresceu exponencialmente para abastecer as máquinas de guerra. O controle das reservas
+        e as interrupções no fornecimento tornaram-se fontes de conflitos e escassez, afetando a dinâmica
+        global. 
+
+       No entanto, foi na crise do petróleo de 1973 que o mundo testemunhou uma situação
+        especialmente
+        impactante. Em resposta ao apoio ocidental a Israel na Guerra do Yom Kippur, a OPEP (Organização dos Países
+        Exportadores de Petróleo) impôs um embargo ao
+        petróleo, reduzindo drasticamente suas exportações para países ocidentais. Essa ação resultou em uma
+        crise de energia global, com preços do petróleo atingindo níveis recordes e escassez em diversas partes
+        do mundo.
+
+        A crise do petróleo de 1979 adicionou mais instabilidade ao cenário. A Revolução Iraniana
+        interrompeu
+        significativamente as exportações de petróleo do Irã, enquanto a Guerra Irã-Iraque intensificou as
+        tensões no Golfo Pérsico, colocando em risco o fornecimento global de petróleo. Novos choques nos preços
+        ocorreram e a instabilidade no mercado persistiu.</p>
+
+        <p class="espacado">Outro conflito importante relacionado ao petróleo foi a Guerra do Golfo em 1990. A invasão
+        do Kuwait
+        pelo Iraque, liderada por Saddam Hussein, gerou uma resposta militar da coalizão internacional. Essa
+        guerra foi amplamente motivada pela busca pelo controle das vastas reservas de petróleo do Kuwait, uma
+        vez que garantir o fornecimento e evitar desequilíbrios econômicos globais era uma preocupação central
+        da coalizão liderada pelos Estados Unidos.
+
+         A volatilidade dos preços do petróleo também se mostrou evidente durante a crise financeira
+        de 2008. A
+        desaceleração econômica resultante da crise global levou a uma queda na demanda de petróleo, ocasionando
+        uma redução nos preços. No entanto, a recuperação rápida dos preços e a posterior alta histórica
+        destacaram a volatilidade inerente ao mercado do petróleo.
+
+        Atualmente, as tensões geopolíticas no Oriente Médio continuam a desempenhar um papel
+        significativo na
+        instabilidade do mercado de petróleo.
+        Ao longo da história, o petróleo tem sido uma commodity essencial, com sua demanda, oferta
+        e fator de grande influência geopolítica
+        moldando a economia global e as relações internacionais. A dependência do petróleo como fonte de energia
+        continua a influenciar eventos globais, destacando a necessidade de buscar soluções energéticas
+        alternativas e sustentáveis, além de que está é uma fonte que um dia irá se esgotar.</p>
+
+
+
+    <br>
+
+    </div>
+
+
+
+    <!-- Heading Row-->
+
+
+
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body">
+            <h1>Impactos ambientais</h1>
+        </div>
+    </div>
+    <div class="centered-image">
+        <img class="centered-image" src="./img/desastre.jpg" alt="..." />
+    </div>
+    <br>
+
+
+
+    <div class="text-container">
+
+        <p class="espacado">
+            Embora tenha se configurado como uma fonte de energia primordial no mundo moderno, o uso em larga escala do
+            petróleo pela indústria tem acarretado uma série de problemas para a sociedade, mais especificamente no que
+            diz respeito aos problemas ambientais, com fortes impactos em nossos ecossistemas. Um dos principais
+            desafios está atrelado aos derramamentos de petróleo, que podem ocorrer durante o processo de extração,
+            transporte marítimo e perfuração de reservatórios. Esses derramamentos devastam os ecossistemas marítimos e
+            costeiros, implicando em problemas na fauna, com morte de diversos animais a partir da contaminação de
+            habitats e danos a longo prazo. 
+            
+            <p class="espacado">Além disso, a própria queima de combustíveis, como gasolina e diesel,
+            representa um dos maiores riscos da utilização dos derivados do petróleo, contribuindo para a poluição do
+            ar. Essa poluição engloba a emissão de gases altamente prejudiciais, como dióxido de enxofre e óxidos de
+            nitrogênio. Essas substâncias contribuem para a má qualidade do ar, problemas respiratórios, chuva ácida e
+            agravamento das mudanças climáticas. A respeito dessas mudanças climáticas, as emissões de gases de efeito
+            estufa provenientes da queima de petróleo são uma das principais causas do aquecimento global. O dióxido de
+            carbono e outros gases emitidos intensificam o efeito estufa, levando a consequências devastadoras, como
+            aumento das temperaturas, eventos climáticos extremos e alterações nos padrões climáticos. 
+            
+            <p class="espacado">Somado a esses
+            problemas que incidem sobre a qualidade do ar e no clima, a exploração e a produção de petróleo podem
+            resultar em outros danos à biodiversidade, a construção de infraestruturas, como oleodutos e plataformas de
+            perfuração, por exemplo, podem ocasionar na destruição e fragmentação de habitats naturais, causando perda
+            de biodiversidade, com ecossistemas terrestres e marinhos são afetados, prejudicando espécies vegetais e
+            animais. Todos esses problemas ressaltam a urgência de uma transição para fontes de energia mais limpas e
+            sustentáveis.</p>
+
+
+
+
+
+    </div>
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body">
+            <h1>Principais Países Produtores de Petróleo</h1>
+        </div>
+    </div>
+    <div class="container-slider">
+        <button id="prev-button"><img class="imgarrow" src="./img/arrow.png" alt="prev-button"></button>
+        <div class="container-images">
+            <img src="./img/PRINCIPAIS PRODUTORES DE PETRÓLEO.png" alt="Introdução" class="slider on">
+            <img src="./img/1.png" alt="Estados Unidos" class="slider">
+            <img src="./img/2.png" alt="Arábia Saudita" class="slider">
+            <img src="./img/3.png" alt="Rússia" class="slider">
+            <img src="./img/4.png" alt="Canadá" class="slider">
+            <img src="./img/5.png" alt="Iraque" class="slider">
+            <img src="./img/6.png" alt="China" class="slider">
+            <img src="./img/7.png" alt="Emirados Árabes Unidos" class="slider">
+            <img src="./img/8.png" alt="Irã" class="slider">
+            <img src="./img/9.png" alt="Brasil" class="slider">
+            <img src="./img/10.png" alt="Kuwait" class="slider">
+        </div>
+        <button id="next-button"><img class="imgarrow" src="./img/arrow.png" alt="next-button"></button>
+    </div>
+
+
+    <div class="text-container">
+
+        <div class="card text-white bg-secondary my-5 py-4 text-center">
+            <div class="card-body">
+                <h1>O Petróleo no Brasil</h1>
+            </div>
+        </div>
+        <div class="centered-image">
+            <img class="centered-image" src="./img/p_brasil.webp" alt="..." />
+        </div>
+        <br>
+
+        <p class="espacado">
+            A existência do petróleo em certas regiões do globo já havia sido notada por diversos povos antes mesmo da
+            revolução industrial, durante a Antiguidade, por exemplo, civilizações como os egípcios o utilizaram no
+            processo de embalsamento e povos pré-colombianos na pavimentação de estradas. No Brasil, sua existência era
+            conhecida desde o período imperial, mas a descoberta mais significativa veio a ocorrer somente em 1930,
+            quando Manoel Inácio de Basto constatou a presença de petróleo em Lobato, no estado da Bahia. Alguns anos
+            mais tarde, a criação do Conselho Nacional do Petróleo (CNP), em 1938, definiu diretrizes para a sua
+            exploração.
+            A partir daí, o governo brasileiro intensificou a busca por campos de petróleo em todo o país, anunciando o
+            campo de Candeias, também na Bahia, em 1941. Apesar de descobertas modestas, o monopólio estatal sobre o
+            petróleo foi oficializado em 1953 com uma criação da Petrobras. Nos anos 1960, a Petrobras se expandiu para
+            águas profundas, impulsionando a produção de petróleo, e em 1974, a Bacia de Campos se tornou a maior
+            reserva do país.
+            Em 1997, o monopólio estatal chegou ao fim, permitindo a participação de empresas privadas no setor. A
+            partir de 2003, novas bacias aumentaram a capacidade de produção, suprindo mais de 90% da demanda nacional.
+            Em 2007, a descoberta do pré-sal, a sete mil metros de profundidade, situada nas bacias do Sul e Sudeste do
+            Brasil e possuindo vastas reservas, trouxe perspectivas de dobrar a produção de petróleo e gás no Brasil.
+        </P>
+
+
+    </div>
+<hr>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4 px-lg-5">
+            <p class="m-0 text-center text-white">Instituto Federal do Rio Grande do Norte</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="./scripts.js"></script>
+    <script>const slider = document.querySelectorAll('.slider');
+        const btnPrev = document.getElementById('prev-button');
+        const btnNext = document.getElementById('next-button');
+
+        let currentSlide = 0;
+
+        function hideSlider() {
+            slider.forEach(item => item.classList.remove('on'))
+        }
+
+        function showSlider() {
+            slider[currentSlide].classList.add('on')
+        }
+
+        function nextSlider() {
+            hideSlider()
+            if (currentSlide === slider.length - 1) {
+                currentSlide = 0
+            } else {
+                currentSlide++
+            }
+            showSlider()
+        }
+
+        function prevSlider() {
+            hideSlider()
+            if (currentSlide === 0) {
+                currentSlide = slider.length - 1
+            } else {
+                currentSlide--
+            }
+            showSlider()
+        }
+
+        btnNext.addEventListener('click', nextSlider);
+        btnPrev.addEventListener('click', prevSlider);
+    </script>
+
+</body>
+
+</html>
